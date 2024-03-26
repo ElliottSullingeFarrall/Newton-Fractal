@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "mandelbrot-fractal"
+name = "newton-fractal"
 version = "0.1.0"
-description = "Exercise on the Mandelbrot Fractal."
+description = "Exercise on the Newton Fractal."
 authors = ["ElliottSullingeFarrall <elliott.chalford@gmail.com>"]
 readme = "README.md"
 

@@ -1,0 +1,19 @@
+{
+    "code-runner.executorMap": {
+        "python": "poetry run python3 $fullFileName"
+    },
+    "cSpell.words": [
+        "colinear",
+        "Descarte",
+        "edgecolors",
+        "facecolor",
+        "facecolors",
+        "imshow",
+        "linalg",
+        "mathbb",
+        "matplotlib",
+        "meshgrid",
+        "xlim",
+        "ylim"
+    ]
+}
