@@ -30,6 +30,7 @@
             POETRY_VIRTUALENVS_IN_PROJECT = true;
             shellHook = ''
               poetry env use $(which python3)
+              poetry self add poetry-auto-export
               poetry install --no-root
             '';
           };
