@@ -11,11 +11,6 @@ numpy = "^1.26.4"
 matplotlib = "^3.8.3"
 snakeviz = "^2.2.0"
 
-[tool.poetry-auto-export]
-output = "requirements.txt"
-without_hashes = true
-without = ["dev"]
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
