@@ -2,7 +2,7 @@
 
 ## Newton-Raphson Method
 
-Consider a polynomial $p(z) = \prod_{i=1}^n (z - \zeta_i)$ with $n$ distinct roots $\zeta_i \in \mathbb{C}$. If we pick a starting point $z_0 \in \mathbb{C}$, we can use the Newton-Raphson method to define a sequence $z_n$ that will either converge to one of the roots or diverge. The sequence is given by
+Consider a polynomial $p(z) = (z - \zeta_1)\cdots(z - \zeta_n$ with $n$ distinct roots $\zeta_i \in \mathbb{C}$. If we pick a starting point $z_0 \in \mathbb{C}$, we can use the Newton-Raphson method to define a sequence $z_n$ that will either converge to one of the roots or diverge. The sequence is given by
 $$z_{n+1} = z_n - \frac{p(z_n)}{p'(z_n)}$$
 However, we don't know which starting values $z_0$ correspond to which root $\zeta_i$.
 
